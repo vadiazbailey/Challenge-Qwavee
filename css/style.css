@@ -1,0 +1,220 @@
+body{
+    font-family: 'Vollkorn', serif;
+    font-size: 19px;
+    margin: 5px;
+    display: grid;
+    grid-template-rows: 10% 90%;
+    height: 630px;
+}
+
+nav{
+    height: 50px;
+    display: grid;
+    grid-template-columns: 20% 20% 60%;
+    grid-template-rows: 100%;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+nav .logo img{
+    width:76px;
+    margin-left: -50px;
+}  
+
+.logo{
+    justify-self: center;
+    display: inline-table;
+}
+
+nav button{
+    background-color: white;
+    border-color: white;
+}
+
+nav .search input{
+    border-color: honeydew;
+    color: gray;
+    margin-left: 10px;
+}
+
+nav .search{
+    margin-top: 25px;
+    margin-left: 30px;
+}
+
+.search{
+    display:inline-flex;
+}
+
+nav aside ul li{
+    display: inline-flex; 
+    margin-right: 30px; 
+}
+
+nav aside ul li:hover{
+    text-decoration:underline;
+}
+
+nav aside{
+    display: inline-flex;
+    margin-top: 7px;
+    justify-content: end; 
+}
+
+#relampago{
+    color: yellow;
+}
+
+#ropa{
+    color: brown;
+}
+
+#shoes{
+    color: black;
+}
+
+#cartera{
+    color: brown;
+}
+
+#active{
+    color: lightblue;
+}
+
+#gift{
+    color: orange;
+}
+
+#diamont{
+    color: lightblue;
+}
+
+#help{
+    color: blue;
+}
+
+section{
+    display: grid;
+    grid-template-columns: 20% 40% 40%;
+    grid-template-rows: 100%;
+}
+
+section aside{
+    margin-top: 15px;
+    margin-left: 40px;
+    height: 70%;
+}
+
+section aside ul{
+    list-style:none;
+}
+
+section aside ul li i{
+    margin-right: 13px;
+}
+
+section aside ul li{
+    margin-bottom: 20px;
+}
+
+section aside p i{
+    margin-right: 13px;
+}
+
+.abajo{
+    position:absolute;
+    bottom:50px;
+}
+
+section div{
+    margin: 20px;
+    justify-content: center;
+}
+
+section div .vertical{
+    argin: 0px;
+    margin-right: 45px;
+    width: 100%;
+}
+
+section div img{
+    margin: 2px;
+}
+
+section div img:hover{
+    border: 1px solid rgb(184, 183, 183);
+}
+
+.section1{
+    height: 90%;
+}
+
+.section2{
+    height: 90%;
+
+}
+
+.section1 .horizontal{
+    margin: 0px;
+    height: 50%;
+    margin-bottom: 10px;
+}
+
+.section2 .horizontal{
+    margin: 0px;
+    height: 50%;
+}
+
+.horizontal img{
+    width: 100%;
+    height: 45%;
+    border-radius: 10px;
+}
+
+.vertical{
+    margin:0px;
+    height: 50%;
+    margin-bottom: 10px;
+    display: flex;
+}
+
+.section1 .vertical .favourite{
+    margin: 0px;
+    height: 100%;
+    width: 100%;
+}
+
+.section2 .vertical .favourite{
+    margin: 0px;
+    height: 100%;
+    width: 100%;
+}
+
+.favourite{
+    position:relative;
+}
+
+.favourite button{
+    position: absolute;
+    bottom: 16em;
+    right: 2em;
+    border-radius: 356.5em;
+    padding: 6px;
+    border: white;
+}
+
+.vertical .favourite img{
+    height: 100%;
+    width: 96%;
+    border-radius: 10px;
+}
+
+.like{
+    background-color:white;
+    color: red;
+}
+
+.nolike{
+    background-color:white;
+    color: black;
+}

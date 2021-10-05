@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Link para insertar css-->
+    <link href="css/style.css" type="text/css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <!--Link para importar tipografia-->
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Vollkorn:ital@1&display=swap" rel="stylesheet">
+    <!--Link para insertar icono-->
+    <link rel="SHORCUT ICON" type="image/x-icon.ico" href="./images/LogoCaped.png"/>
+    <!--load all styles -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+    integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <title>Caped</title>
+</head>
+<body>
+    <nav>
+        <div class="logo">
+            <img src="./images/LogoCaped.png" alt="Logo de la empresa">
+        </div>
+
+        <div class="search">
+            <button><i class="fas fa-search"></i></button>
+            <input type="search" placeholder="Search Store">
+        </div>
+        <aside>
+            <ul>
+                <li>products</li>
+                <li>story</li>
+                <li>manufacturing</li>
+                <li>packaging</li>
+                <li><i class="fas fa-shopping-basket"></i></li>
+                <li><i class="far fa-user"></i></li> 
+            </ul>        
+        </aside>
+    </nav>
+    <section>
+        <aside>
+            <h3>Explore</h3>
+            <ul>
+                <li><i id="relampago" class="fas fa-bolt"></i>New in</li>
+                <li><i id="ropa" class="fas fa-tshirt"></i>Clothing</li>
+                <li><i id="shoes" class="fas fa-shoe-prints"></i>Shoes</li>
+                <li><i id="cartera" class="fas fa-shopping-bag"></i>Accesories</li>
+                <li><i id="active" class="fas fa-snowboarding"></i>Activewear</li>
+                <li><i id="gift" class="fas fa-gift"></i>Gifts & Living</li>
+                <li><i id="diamont" class="far fa-gem"></i>Inspiration</li>
+            </ul>
+
+            <p class="abajo"><i id="help" class="far fa-question-circle"></i>Help Center</p>
+        </aside>
+        
+        <div class="section1">
+            <div class="horizontal">
+                    <img src="./images/1.jpg" alt="">
+                    <img src="./images/2.jpg" alt="">
+            </div>
+            <div class="vertical">
+                <div class="favourite">
+                    <img src="./images/3.jpg" alt="">
+                    <button class="like nolike" id="uno"><i class="far fa-heart"></i></button>
+                </div>
+                <div class="favourite">
+                    <img src="./images/4.jpg" alt="">
+                    <button class="like nolike" id="dos"><i class="far fa-heart"></i></button>
+                </div>                
+            </div>
+        </div>
+
+        <div class="section2">
+            <div class="vertical">
+                <div class="favourite">
+                    <img src="./images/5.jpg" alt="">
+                    <button class="like nolike" id="tres"><i class="far fa-heart"></i></button>
+                </div>
+                <div class="favourite">
+                    <img src="./images/6.jpg" alt="">
+                    <button class="like nolike" id="cuatro"><i class="far fa-heart"></i></button>
+                </div>
+            </div>
+            <div class="horizontal">
+                <img class="horizontal" src="./images/7.jpg" alt="">
+                <img class="horizontal" src="./images/8.jpg" alt="">    
+            </div> 
+        </div>
+    </section>
+    <script src="./js/favourite.js"></script>
+</body>
+</html>
